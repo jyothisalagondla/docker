@@ -1,3 +1,3 @@
-FROM maven:3.8.6-openjdk-11
+FROM ubuntu:20.07
 LABEL author=jyothi
-RUN apt update && apt install python3 -y && apt install maven -y
+RUN apt update && apt install httpd -y && apt install php -y && apt install php-mysql -y
