@@ -1,3 +1,3 @@
 FROM scratch
-ADD ubuntu-focal-oci-amd64-root.tar.gz /
+ADD ubuntu-bionic-oci-amd64-root.tar.gz /
 CMD ["bash"]
