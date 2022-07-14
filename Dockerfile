@@ -1,3 +1,4 @@
-FROM scratch
-ADD ubuntu-bionic-oci-amd64-root.tar.gz /
-CMD ["bash"]
+FROM ubuntu
+LABEL author=jyothi
+# RUN apt update 
+# CMD ["sleep", "1d"]
